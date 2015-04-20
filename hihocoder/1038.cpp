@@ -9,7 +9,7 @@ int N = 0;
 
 void ZeroOnePack(int cost, int value) {
     for (int i = V; i >= cost; i--) {
-            f[i] = max(f[i-1], f[i-cost]+value);
+            f[i] = max(f[i], f[i-cost]+value);
     }
 }
 
