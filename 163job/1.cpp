@@ -26,9 +26,12 @@ public:
 
 pos box_pos_org, player_pos_org, goal_pos;
 
-
 bool has_box(pos & box_pos, int row, int column) {
 	return box_pos.row == row && box_pos.column == column;
+}
+
+int calculate() {
+  return 1;
 }
 
 int main(int argc, char const *argv[])

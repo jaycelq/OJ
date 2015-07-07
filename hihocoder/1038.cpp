@@ -16,7 +16,7 @@ void ZeroOnePack(int cost, int value) {
 int main() {
     cin >> N;
     cin >> V;
-    
+
     for(int i = 1; i <= N; i++) {
         cin >> c[i] >> w[i];
     }
@@ -30,5 +30,6 @@ int main() {
 
     cout << f[V] << endl;
 
+    system("read");
     return 0;
 }
